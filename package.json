@@ -10,8 +10,8 @@
       "start": "node --require babel-polyfill dist/index.js",
       "watch": "nodemon -e js -w src -- --require babel-polyfill ./node_modules/.bin/babel-node src/index.js",
       "lint": "eslint .",
-      "test": "yarn run lint && mocha src/*.test.js --compilers js:babel-core/register",
-      "test:watch": "yarn run test -w src/*.test.js"
+      "test": "mocha src/*.test.js --compilers js:babel-core/register",
+      "test:watch": "npm run test -- -w src/*.test.js"
   },
   "dependencies": {
     "babel-cli": "^6.24.0",
