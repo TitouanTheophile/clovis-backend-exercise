@@ -25,7 +25,7 @@ If you have a problem, start by reading the API and database tests and KoaJS doc
 ## Technical details
 
 * `index.js` and `app.js` files are already coded, you just have to code controllers in `src/controllers.js`
-* You should read [koa-router](https://github.com/alexmingoia/koa-router) documentation
+* You should read [koa-router](https://github.com/alexmingoia/koa-router/tree/master) documentation
 * You may use [lodash](https://lodash.com/)
 
 In this exercise you will use a **really** simple database engine. Allowed methods are :
